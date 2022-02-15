@@ -1,13 +1,14 @@
 # hse_hw1_meth
-# hse_hw1_meth
 
-Ссылка на Colab: https://colab.research.google.com/drive/1NythSDWdjgvl8WtRStkHupEtXQn3Htz5?usp=sharing
+Ссылка на Colab: 
 
 
 ## 2.
 ### a)
 
-![alt](./fig/task1.png)
+![image](https://user-images.githubusercontent.com/61352475/154162927-8f0262ff-642e-4380-b438-e60fff0a36b4.png)
+![image](https://user-images.githubusercontent.com/61352475/154163027-486d0561-412c-426a-b9a7-54bf46eb42bf.png)
+
 
 ### b)
 
