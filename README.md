@@ -5,9 +5,11 @@
 
 ## 2.
 ### a)
-
-![image](https://user-images.githubusercontent.com/61352475/154162927-8f0262ff-642e-4380-b438-e60fff0a36b4.png)
-![image](https://user-images.githubusercontent.com/61352475/154163027-486d0561-412c-426a-b9a7-54bf46eb42bf.png)
+Образцы | chr11:11347700-11367700 |	chr11:40185800-40195800 
+-|-|-|-|-|-
+8cell |	1090 |	464
+epiblast |	2328 |	1062 
+ICM |	1456 |	630 
 
 
 ### b)
