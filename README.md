@@ -1,10 +1,21 @@
 # hse_hw1_meth
 ## 1 Скачайте любой из запусков и проведите анализ QC прочтений
 ### Epiblast 
-*Ссылка на Colab:*https://colab.research.google.com/drive/1LOnav4HSXczDuBXoF8jRzys0Y-BhtvEd#scrollTo=CLLeQw9Mxab4
-##2
-*Ссылка на Colab:*https://colab.research.google.com/drive/1gmpmUDALrpHR3o81ci6Uuhml3-27tEbG#scrollTo=bAaOdZCKsVtX 
+*Ссылка на Colab:* https://colab.research.google.com/drive/1LOnav4HSXczDuBXoF8jRzys0Y-BhtvEd#scrollTo=CLLeQw9Mxab4
+### Можно заметить, что многие параметры (особенно уровень дупликации последовательностей) очень схож с образцами сеаквенирования ДНК.
+![image](https://user-images.githubusercontent.com/61352475/154204812-b1fc1b20-44a4-45dc-8a65-f0488ad4e7a8.png)
+### Также стоит отметить странные output данные Per base sequence content, процентное соотношение сильно отличается (см. ниже)
+![image](https://user-images.githubusercontent.com/61352475/154205829-6ff5c632-2e35-4dae-9831-6b34f44c5d8a.png)
+### MultiQ
+![image](https://user-images.githubusercontent.com/61352475/154207942-d59fd8c7-8189-4257-9b25-e853f3bef99d.png)
+Относительно большое количество уникальных чтений в обоих взятых образцах.
+### Общая статистика:
+![image](https://user-images.githubusercontent.com/61352475/154208447-035b4cb4-e12b-4868-ace3-59d0f1774170.png)
+### Итак, отчёт я смотрела для двух образцов SRR3824222.fastq SRR3824222_1.fastq, но потом на всякий случай решила взять также SRR3824222_2.fastq.
 
+## 2
+
+*Ссылка на Colab:* https://colab.research.google.com/drive/1gmpmUDALrpHR3o81ci6Uuhml3-27tEbG#scrollTo=bAaOdZCKsVtX 
 ### a) Число ридов, закартированных на участки 11347700-11367700; 40185800-40195800
 Образцы | chr11:11347700-11367700 |	chr11:40185800-40195800 
 -|-|-
