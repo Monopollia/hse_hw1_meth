@@ -1,6 +1,7 @@
 # hse_hw1_meth
 ## 1 Скачайте любой из запусков и проведите анализ QC прочтений
-
+### Epiblast 
+*Ссылка на Colab:*https://colab.research.google.com/drive/1LOnav4HSXczDuBXoF8jRzys0Y-BhtvEd#scrollTo=CLLeQw9Mxab4
 ##2
 *Ссылка на Colab:*https://colab.research.google.com/drive/1gmpmUDALrpHR3o81ci6Uuhml3-27tEbG#scrollTo=bAaOdZCKsVtX 
 
