@@ -1,5 +1,7 @@
 # hse_hw1_meth
+## 1 Скачайте любой из запусков и проведите анализ QC прочтений
 
+##2
 *Ссылка на Colab:*https://colab.research.google.com/drive/1gmpmUDALrpHR3o81ci6Uuhml3-27tEbG#scrollTo=bAaOdZCKsVtX 
 
 ### a) Число ридов, закартированных на участки 11347700-11367700; 40185800-40195800
