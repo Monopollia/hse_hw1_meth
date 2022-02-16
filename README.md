@@ -25,6 +25,16 @@ ICM |	90,92%
 
 ### e) С помощью .bedgraph постройте гистограмму распределения метилирования цитозинов по хромосоме (отображение насколько часто метилируются цитозины в данном образце: по X процент метилированных цитозинов, по Y - частота)
 
+`df = pd.read_csv("s_SRR5836473_1_bismark_bt2_pe.deduplicated.bedGraph", delimiter='\t', skiprows=1, header=None)`
+
+`plt.figure(figsize=[10, 7])`
+
+`plt.title("метилирование 8cell", fontsize=20)`
+
+`plt.hist(df2[3], bins=100, density=True)`
+
+`plt.show()`
+
 #### 8cell
 ![image](https://user-images.githubusercontent.com/61352475/154180757-234a9ea4-44cc-4612-8e28-cf264ef32a24.png)
 #### Epiblast
@@ -43,10 +53,13 @@ ICM |	90,92%
 
 `! make_tracks_file --trackFiles cell8_methylation.bigWig.bw epiblast_methylation.bigWig.bw icm_methylation.bigWig.bw -o tracks.ini`
 
-`! pyGenomeTracks --tracks tracks.ini --region chr11:3100030-3500030 -o image.png`
+`! pyGenomeTracks --tracks tracks.ini --region chr11:3000000-4000000 -o image.png`
 
-![image](https://user-images.githubusercontent.com/61352475/154182193-e75c86f8-3902-46d1-88a2-7ca98a71ee12.png)
+![image](https://user-images.githubusercontent.com/61352475/154185119-ec985884-510c-46ab-a7a6-d5c5a8de26fc.png)
+
 Покрытие:(код такой-же, только вместо *methylation* ставим *coverage*)
+![image](https://user-images.githubusercontent.com/61352475/154185186-4fc20964-a872-427a-bebe-1eb71c95c46c.png)
 
-![image](https://user-images.githubusercontent.com/61352475/154182217-8374ce85-aeac-4b74-b988-e3d928b7a57b.png)
+
+
 
