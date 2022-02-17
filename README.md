@@ -42,15 +42,15 @@ ICM |	100-90,92=9,08%
 ![image](https://user-images.githubusercontent.com/61352475/154556728-4224ab2d-a3ae-4059-8ef0-fa3e3eb20c38.png)
 ![image](https://user-images.githubusercontent.com/61352475/154556859-0910c0a3-3bc6-4a9a-81c1-ede4cf306f0f.png)
 ####
-#### На втором считывании процент метилирования CHH коллеблется намного сильнее, чем на первом.
+#### На втором считывании процент CHH calls коллеблется намного сильнее, чем на первом.
 ### Epiblast (CpG в среднем 77%)
 ![image](https://user-images.githubusercontent.com/61352475/154557030-36c87ec1-5cc3-4b2f-93af-b93e8e7ef90c.png)
 ![image](https://user-images.githubusercontent.com/61352475/154193245-c1d5b5c2-c43e-4210-96f7-f4adaebbe072.png)
-#### На втором считывании процент метилирования CHH коллеблется намного сильнее, чем на первом.
+#### На втором считывании процент CHH calls коллеблется намного сильнее, чем на первом.
 ### ICM (CpG в среднем 23%)
 ![image](https://user-images.githubusercontent.com/61352475/154556110-d3211a5d-4b2e-43c2-b590-56edbb678d1b.png)
 ![image](https://user-images.githubusercontent.com/61352475/154555850-a03e420f-e240-4b35-bc4b-770d641a2726.png)
-#### На втором считывании процент метилирования CHH коллеблется намного сильнее, чем на первом.
+#### На втором считывании процент CHH call коллеблется намного сильнее, чем на первом.
 ### e) С помощью .bedgraph постройте гистограмму распределения метилирования цитозинов по хромосоме (отображение насколько часто метилируются цитозины в данном образце: по X процент метилированных цитозинов, по Y - частота)
 
 `df = pd.read_csv("s_SRR5836473_1_bismark_bt2_pe.deduplicated.bedGraph", delimiter='\t', skiprows=1, header=None)`
