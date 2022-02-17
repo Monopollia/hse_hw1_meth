@@ -2,6 +2,7 @@
 ## 1 Скачайте любой из запусков и проведите анализ QC прочтений
 ### Epiblast 
 *Ссылка на Colab:* https://colab.research.google.com/drive/1LOnav4HSXczDuBXoF8jRzys0Y-BhtvEd#scrollTo=CLLeQw9Mxab4
+### SRR3824222_1_fastqc
 ### Можно заметить, что некоторые параметры (например уровень повторений последовательностей) схож с образцами сеаквенирования ДНК (больше, чем с РНК).
 ![image](https://user-images.githubusercontent.com/61352475/154204812-b1fc1b20-44a4-45dc-8a65-f0488ad4e7a8.png)
 ### Также стоит отметить своеобразные output данные Per base sequence content, процентное соотношение нуклеотидов сильно отличается (см. ниже)
